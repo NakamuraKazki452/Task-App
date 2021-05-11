@@ -42,7 +42,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: blue;
 }
 
 p {
@@ -52,19 +52,24 @@ p {
 
 /* ヘッダー */
 
+#header {
+    background-color: #008080;
+}
+
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: white;
+  font-style: italic;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
-  font-weight: bold;
+  font-weight: none;
 }
 
 #logo:hover {
-  color: #gray;
+  color: gray;
   text-decoration: none;
 }
 
