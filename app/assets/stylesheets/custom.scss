@@ -55,6 +55,12 @@ p {
 #header {
     background-color: #008080;
 }
+.header-list {
+
+  color: white;
+  font-weight: bold;
+
+}
 
 #logo {
   float: left;
@@ -65,13 +71,18 @@ p {
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
-  font-weight: none;
+  font-weight: bold;
 }
 
 #logo:hover {
   color: gray;
   text-decoration: none;
 }
+
+#top-main{
+  background-color: transparent;
+}
+
 
 /* デバッグウインドウ */
 
