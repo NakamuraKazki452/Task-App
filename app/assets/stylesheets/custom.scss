@@ -53,14 +53,7 @@ p {
 /* ヘッダー */
 
 #header {
-    background-color: #008080;
-}
-.header-list {
-
-  color: white;
-  font-weight: bold;
-
-}
+    background-color: blue;
 
 #logo {
   float: left;
@@ -79,9 +72,34 @@ p {
   text-decoration: none;
 }
 
-#top-main{
-  background-color: transparent;
+.header-list {
+
+  color: white;
+  font-weight: bold;
+
 }
+
+}
+
+
+.header-list:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+#dropdown-title {
+    background-color: blue;
+}
+
+li .dropdown-header {
+    background-color: rgba(200,200,200,0.5);
+    font-weight: bold;
+}
+
+#top-main {
+    background-color: white;
+}
+
 
 
 /* デバッグウインドウ */
